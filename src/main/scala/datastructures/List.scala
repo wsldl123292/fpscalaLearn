@@ -27,8 +27,4 @@ object List{
         else Cons(as.head,apply(as.tail:_*))
     }
 
-
-    def main(args: Array[String]) {
-        sum(Cons(1,Cons(2,Nil)))
-    }
 }
